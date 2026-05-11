@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobilra optimalizált input mezők, hogy ne nagyítson bele iOS-en */
+input, textarea, select {
+  font-size: 16px !important; 
+}
+
+
